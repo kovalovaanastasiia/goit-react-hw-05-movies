@@ -1,0 +1,76 @@
+.backBtn {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  transition: font-size 0.3s ease
+}
+.backBtn:hover {
+  font-size: 22px;
+  color: #ff0090;
+}
+
+.mainWrapper {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.filmImage {
+  width: 240px;
+}
+.filmTitle,
+.scoreTitle,
+.overviewTitle,
+.genresTitle,
+.additionalInfoTitle {
+  margin: 0;
+}
+
+.scoreWrapper {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+
+.score,
+.genresItem,
+.overview,
+.additionalInfoItem {
+  font-size: 18px;
+}
+
+.overview{
+  width: 600px;
+}
+
+.genresList,
+.additionalInfoList {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+.additionalInfoList {
+  margin: 0 0 0 10px;
+
+}
+.additionalInfoItem {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.3s ease, margin-left 0.3s ease;
+}
+.additionalInfoItem:hover {
+  color: #ff0090;
+  font-size: 19px;
+  margin-left: 20px;
+
+}
+

@@ -1,0 +1,11 @@
+.castList {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.castItem {
+  font-size: 18px;
+}

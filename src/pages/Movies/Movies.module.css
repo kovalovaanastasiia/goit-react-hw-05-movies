@@ -1,0 +1,19 @@
+.filteredMoviesList {
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filteredMoviesItem {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.3s ease, margin-left 0.3s ease;
+}
+.filteredMoviesItem:hover {
+  color: #ff0090;
+  font-size: 19px;
+  margin-left: 20px;
+}

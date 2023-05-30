@@ -1,0 +1,19 @@
+
+.navLink {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  transition: font-size 0.3s ease
+}
+
+.navLink:hover {
+  font-size: 22px;
+}
+
+.navLink[aria-current='page'] {
+  color: #ff0090;
+}
+
+
